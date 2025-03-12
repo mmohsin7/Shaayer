@@ -6,13 +6,11 @@ import tensorflow as tf
 from gradio.themes.base import Base
 from tensorflow.keras.preprocessing.sequence import pad_sequences                                 # type: ignore
 
-File_Path = "/content/drive/MyDrive/Shaayer/Shaayer_Data/"
-
 # Load the Trained Model
-model = tf.keras.models.load_model(f"{File_Path}RomanUrduPoetryModel.keras")
+model = tf.keras.models.load_model("RomanUrduPoetryModel.keras")
 
 # Load Poetry Tokenizer
-with open(f"{File_Path}RomanUrduPoetryTokenizer.pkl", "rb") as File:
+with open("RomanUrduPoetryTokenizer.pkl", "rb") as File:
     PoetryTokenizer = pickle.load(File)
 
 # Set Max Sequence Length
