@@ -5,10 +5,6 @@ Shaayer is an AI-powered **poetry generator** trained on Roman Urdu poetry scrap
 
 ![Project Banner](Images/ShaayerBanner.png)
 
-# **Shaayer - Roman Urdu Poetry Generator** 🎭📜
-
-**Shaayer** is an AI-powered poetry generator trained on **Roman Urdu poetry** scraped from [Rekhta](https://rekhta.org). It utilizes **Natural Language Processing (NLP) and a GRU-based deep learning model** to generate poetry based on a given seed word and desired length.
-
 ## Features
 - **Scrapes Roman Urdu poetry** from `Rekhta` using `BeautifulSoup`.
 - **Cleans and tokenizes** the text for training.
